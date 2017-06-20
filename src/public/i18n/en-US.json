@@ -1,0 +1,18 @@
+{
+    "global": {
+        "title": "Hello from"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    },
+    "footer": {
+        "title": "Sample angular 2 app from Frontent team"
+    },
+    "home": {
+        "sample": "HOME.........................."
+    },
+    "about": {
+        "sample": "ABOUT........................."
+    }
+}

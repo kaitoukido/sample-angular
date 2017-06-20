@@ -1,0 +1,18 @@
+{
+    "global": {
+        "title": "Chào cả nhà từ"
+    },
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Về chúng tôi"
+    },
+    "footer": {
+        "title": "Trang web của đội Frontend :)"
+    },
+    "home": {
+        "sample": "TRANG CHỦ.........................."
+    },
+    "about": {
+        "sample": "VỀ CHÚNG TÔI........................."
+    }
+}

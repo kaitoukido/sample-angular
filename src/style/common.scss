@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+nav, footer {
+  height: 50px;
+}
+
+main {
+  height: calc(100% - 100px);
+}
+body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #03A9F4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
