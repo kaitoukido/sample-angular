@@ -4,7 +4,8 @@
     },
     "nav": {
         "home": "Home",
-        "about": "About"
+        "about": "About",
+        "test": "Test"
     },
     "footer": {
         "title": "Sample angular 2 app from Frontent team"

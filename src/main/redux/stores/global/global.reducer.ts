@@ -5,7 +5,7 @@ export interface IGlobalState {
 }
 
 export const INIT_STATE: IGlobalState = {
-    currentLanguage: 'us-UK'
+    currentLanguage: 'en-US'
 };
 
 export function globalReducer(state = INIT_STATE, action): IGlobalState {

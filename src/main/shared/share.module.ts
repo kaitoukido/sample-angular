@@ -7,10 +7,14 @@ import { TranslateModule } from '@ngx-translate/core';
 import { SharedActions } from '../shared/share-actions';
 import { SharedServices } from '../shared/share-services';
 import { SharedComponents } from '../shared/share-components';
+import { SharedDirectives } from '../shared/share-directives';
+import { SharedPipes } from '../shared/share-pipes';
 
 @NgModule({
     declarations: [
         SharedComponents,
+        SharedDirectives,
+        SharedPipes,
     ],
     imports: [
         CommonModule,
@@ -23,6 +27,8 @@ import { SharedComponents } from '../shared/share-components';
         CommonModule,
         ReactiveFormsModule,
         FormsModule,
+        SharedDirectives,
+        SharedPipes,
     ],
     providers: [
         HttpModule,

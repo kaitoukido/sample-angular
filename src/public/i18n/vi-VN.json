@@ -4,7 +4,8 @@
     },
     "nav": {
         "home": "Trang chủ",
-        "about": "Về chúng tôi"
+        "about": "Về chúng tôi",
+        "test": "Thử nghiệm"
     },
     "footer": {
         "title": "Trang web của đội Frontend :)"
