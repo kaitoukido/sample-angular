@@ -3,7 +3,27 @@
 <p>PIPES: </p>
 
 <p>{{ testNumber }} -> {{ testNumber | roundNumber }}</p>
+<hr>
+
 
 <p>DIRECTIVES: </p>
+<input type="text" [(ngModel)]="color">
+<p [highlight]="color">Text to be highlighted</p>
+<hr>
 
-<p [highlight]="'green'">Text to be highlighted</p>
+
+<p>OUTPUT: </p>
+<p>Current number: {{ currentNumber }}</p>
+<increase-decrease-buttons (onIncrease)="onIncrease()" (onDecrease)="onDecrease()"></increase-decrease-buttons>
+<hr>
+
+<p>OUTPUT2: </p>
+<div class="row">
+    <div class="col-md-3">
+        <ul>
+            <li *ngFor="let item of items">{{ item }}</li>
+        </ul>
+    </div>
+
+    <array-filter></array-filter>
+</div>

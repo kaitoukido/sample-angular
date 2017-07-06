@@ -8,6 +8,7 @@ nav, footer {
 
 main {
   height: calc(100% - 100px);
+  padding: 0 10px;
 }
 body {
   background: #fff;
@@ -22,4 +23,16 @@ a {
 * {
   margin: 0;
   padding: 0;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+input[type=button] {
+  min-width: 30px;
+}
+
+hr {
+  margin-bottom: 10px;
 }
