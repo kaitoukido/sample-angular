@@ -11,6 +11,8 @@ export class TestComponent {
 
   items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+  printItems = this.items;
+
   onIncrease() {
     console.log('increase button clicked!');
     this.currentNumber += 1;
@@ -19,5 +21,9 @@ export class TestComponent {
   onDecrease() {
     console.log('decrease button clicked!');
     this.currentNumber -= 1;
+  }
+
+  onFilter(cutOffNum) {
+    this.printItems = this.items.slice(0, cutOffNum);
   }
 }

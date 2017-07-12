@@ -1,4 +1,12 @@
-@import "libs/bootstrap.min.css";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_tables.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_dropdowns.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_grid.scss";
 
 @import "common.scss";
 @import "nav.scss";
